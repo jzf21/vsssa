@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "build": "rm -rvf dist & cp -r src/html dist & node-sass src/scss/style.scss dist/assets/style.css",
+    "build": "rmdir dist & xcopy src/html dist & node-sass src/scss/style.scss dist/assets/style.css",
     "serve": "live-server --open=./dist"
   },
   "devDependencies": {
