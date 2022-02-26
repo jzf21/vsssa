@@ -1,5 +1,5 @@
-@use './abstracts';
-@use './components';
+@import './abstracts';
+@import './components';
 
 #button{
     position: fixed;
